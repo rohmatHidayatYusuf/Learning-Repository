@@ -1,0 +1,24 @@
+Git dan GitHub adalah dua hal yang berbeda. Apakah Git dan GitHub harus dikombinasikan? jawabannya tidak jadi Git itu bisa dipakai tanpa GitHub dan sebaliknya.
+
+Apa itu Git?
+Git adalah VCS (Version Conttrol System) disebut juga Revision Controll System atau source code managemen adalah system yang digunakan untuk mengelola perubahan pada dokumen kita
+
+Kenapa kita harus menggunakan version controll system?
+1.Mempermudah untuk mengelola revision.
+Misal ada mahasiswa mengerjakan skripsi, dari pengerjaan skripsi tersebut tentu tidak terhindar dari yang Namanya revisi, Ketika revisi dokumen akan bertambah, disitu version control berguna. jadi simpelnya supaya mempermudah Ketika ingin melihat Riwayat revision
+
+2.Mempermudah untuk pengerjaan antar Tim
+
+Version control system selain Git ada Subversion, Mercurial, CVS
+
+Git itu simpelnya software untuk mengelola perubahan file di dalam folder. foldernya itu kita sebut sebagai repository/repo.
+Riwayat perubahan file disimpan menggunakan serangkaian commit
+
+Branch adalah cabang digunakan untuk mengcopy folder Ketika kita tidak yakin akan perubahan tersebut, atau untuk pengerjaan secara tim.
+penggabungan dua branch disebut merge.
+
+GitHub adalah sebuah website untuk mengelola repo Git tanpa menginstall Git. GitHub ini website yang menggunakan layanan git dan itu terpisah yang ada di computer atau local
+
+jadi kita bisa mengambil dan memasukan commit. itu disebut pull dan push. untuk push dan pull kita tidak bisa langsung menggunakan, untuk menggunakannya itu kita harus membuat remote, itu sama saja dengan kita membuat repo di GitHub lalu diambil atau diclone sehingga di computer kita juga ada jadi git dengan yang ada di computer kita dan di GitHub itu tersambung, baru kita bisa push commit dan pull commit
+
+selain layanan GitHub ada juga layanan yang lainnya contohnya Bitbucket dan GitLah
