@@ -38,3 +38,5 @@ Staging area dan History nantinya akan tersimpan ke dalam folder .git. jadi fold
 
 untuk mengembalikan file yang sudah dihapus itu bisa menggunakan checkout caranya :
 1. ketik `git checkout <5 digit commit code> -- <nama file>` itu digunakan untuk kembali ke commit sebelumnya tetapi hanya untuk file itu saja
+
+file modified bisa langsung dilakukan commit tanpa ditambahkan ke stagging area atau `git add .` cara nya kita bisa mengetikkan command `git commit -a -m "message"` command ini bisa di persingkat menjadi seperti ini `git commit -am "message"`
